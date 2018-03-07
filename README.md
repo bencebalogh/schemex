@@ -9,7 +9,7 @@ Add `schemex` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:schemex, "~> 0.1.0"}
+    {:schemex, "~> 0.1.1"}
   ]
 end
 ```
