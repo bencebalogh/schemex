@@ -4,7 +4,7 @@ defmodule Schemex.Mixfile do
   def project do
     [
       app: :schemex,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -23,7 +23,7 @@ defmodule Schemex.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 0.12"},
+      {:httpoison, "~> 1.0"},
       {:poison, "~> 3.1"},
       {:bypass, "~> 0.8", only: :test},
       {:ex_doc, "~> 0.14", only: :dev}
